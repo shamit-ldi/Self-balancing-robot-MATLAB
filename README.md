@@ -16,3 +16,8 @@ Self balancing robot using MATLAB / Simulink state space modeling, PID/LQR contr
 -visualized open loop instability
 -both position and angle confiremed unstable
 -Simulink result matches MATLAB result
+
+### PID (day 4)
+-Build complete PID closed loop 
+-tuned gains from scratch 
+# -angle settling at exactly  in 0.4 second
