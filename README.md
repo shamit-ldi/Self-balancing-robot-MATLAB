@@ -11,7 +11,7 @@ Self balancing robot using MATLAB / Simulink state space modeling, PID/LQR contr
 - System falls over in ~1.4 seconds without control
 - Controllability rank = 4 ✅
 - 
-Simulink(Day 3)
+### Simulink(Day 3)
 -built simulink model from scratch
 -visualized open loop instability
 -both position and angle confiremed unstable
