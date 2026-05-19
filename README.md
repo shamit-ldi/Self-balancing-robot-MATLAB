@@ -20,4 +20,4 @@ Self balancing robot using MATLAB / Simulink state space modeling, PID/LQR contr
 ### PID (day 4)
 -Build complete PID closed loop 
 -tuned gains from scratch 
-# -angle settling at exactly  in 0.4 second
+#### -angle settling at exactly  in 0.4 second
