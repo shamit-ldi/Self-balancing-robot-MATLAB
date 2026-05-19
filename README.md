@@ -15,4 +15,4 @@ Self balancing robot using MATLAB / Simulink state space modeling, PID/LQR contr
 -built simulink model from scratch
 -visualized open loop instability
 -both position and angle confiremed unstable
--Simulink result matches MATLAB results
+-Simulink result matches MATLAB result
