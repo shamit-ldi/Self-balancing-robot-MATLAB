@@ -10,3 +10,4 @@ Self balancing robot using MATLAB / Simulink state space modeling, PID/LQR contr
 - Unstable pole confirmed at +5.64
 - System falls over in ~1.4 seconds without control
 - Controllability rank = 4 ✅
+- 
