@@ -1,1 +1,19 @@
+# Week 2 — Controller Design Results
 
+## PID Controller
+- Gains: P=50, I=2, D=10
+- Settling time: ~0.4 seconds
+- Manual tuning required
+
+## LQR Controller  
+- Q = diag([1,1,2000,10])
+- R = 1
+- K = [-1.0, -2.31, 25.91, 5.37]
+- Settling time: ~0.5 seconds
+- Mathematically optimal gains
+- No manual tuning required
+
+## Conclusion
+LQR outperforms PID in smoothness and optimality.
+PID settles faster but LQR is more robust.
+Real hardware tuning required in Week 5.
