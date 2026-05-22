@@ -1,0 +1,20 @@
+# Week 3 — Hardware Assembly Progress
+
+## Chassis Assembly 
+- 2WD acrylic chassis assembled
+- Both DC motors mounted with encoder discs
+- Both wheels attached
+- Battery holder mounted
+- Standing vertically for self-balancing orientation
+
+## MPU6050 Sensor 
+- Wired to Arduino Mega (3.3V, GND, SDA pin 20, SCL pin 21)
+- Mounted on breadboard for stable connections
+- Complementary filter implemented
+- Angle readings verified: ~0.04° at rest
+- Sensor responds correctly to tilt
+
+## Arduino Setup 
+- Arduino Mega 2560 REV3
+- COM17 port configured
+- IMU reader code uploaded successfully
