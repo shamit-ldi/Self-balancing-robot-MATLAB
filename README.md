@@ -24,3 +24,19 @@ Self balancing robot using MATLAB / Simulink state space modeling, PID/LQR contr
 ### LQR
 -PID desinged and tuned
 -final matrices [1,1,2000,10];
+ ### chasis and MPU 6050 
+ - Wired to Arduino Mega (3.3V, GND, SDA pin 20, SCL pin 21)
+- Mounted on breadboard for stable connections
+- Complementary filter implemented
+- Angle readings verified: ~0.04° at rest
+- Sensor responds correctly to tilt
+
+- 2WD acrylic chassis assembled
+- Both DC motors mounted with encoder discs
+- Both wheels attached
+- Battery holder mounted
+- Standing vertically for self-balancing orientation
+
+-  Arduino Mega 2560 REV3
+- COM17 port configured
+- IMU reader code uploaded successfully
